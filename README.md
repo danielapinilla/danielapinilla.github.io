@@ -19,18 +19,21 @@ Para resolver las necesidades de gestión y digitalización de procesos, desarro
 
 ### 📆 App de Agendamiento
 * **Propósito:** Automatizar por completo el proceso de reserva y control de citas.
-* **Funcionalidad:** Permite optimizar la disponibilidad del personal y agilizar la atención de manera digital, evitando solapamientos u horarios caóticos.
+* **Funcionalidad:** Permite optimizar la disponibilidad del personal y agilizar la atención de manera digital.
+* 🔗 **[Acceder a la App de Agendamiento en Vivo](https://script.google.com/macros/s/AKfycbwRrnTN0knAiDCX7KVs0I0J2RKfVxmWWo47MMO8_airhwDC6AqTb88jDrg7Jtuf0vcB/exec)**
 
 ### 👥 App de CRM (Customer Relationship Management)
 * **Propósito:** Centralizar la gestión y el seguimiento de las interacciones con los usuarios/clientes.
-* **Funcionalidad:** Permite llevar un registro detallado de cada persona, sus necesidades y los servicios que consume para ofrecer una atención personalizada y eficiente.
+* **Funcionalidad:** Permite llevar un registro detallado de cada persona y sus necesidades.
+* 🔗 **[Acceder a la App de CRM en Vivo](https://script.google.com/macros/s/AKfycbxPEvttBpiuw90SYxBCVcUs9Awl-j2kDcgvF-sSe6cMemdcI06qmVmmOhwmr0Q4dwBhMA/exec)**
 
 ---
 
 ## 🗄️ 3. Arquitectura y Modelado de Datos
-Como analistas de datos, nuestro enfoque principal estuvo en estructurar un repositorio de información limpio, relacional y consistente en **Google Sheets** (utilizado como nuestro Data Warehouse). 
+Como analistas de datos, nuestro enfoque principal estuvo en estructurar un repositorio de información limpio, relacional y consistente utilizando **Google Sheets** como nuestros almacenes de datos (Data Warehouses):
 
-El sistema procesa y almacena la información de manera automatizada a través de las siguientes entidades (tablas) clave:
+* 🔗 **[Revisar Base de Datos: Módulo Agendamiento (Google Sheets)](https://docs.google.com/spreadsheets/d/1CjwIKiJ7V6Sueck2VAyLQghUkNZ7CbqQpgmnZmY28K8/edit?usp=sharing)**
+* 🔗 **[Revisar Base de Datos: Módulo CRM (Google Sheets)](https://docs.google.com/spreadsheets/d/1zKYT3M4hASJtUS1yNs6bDBpdt1Y5knRJvt3JBRN4fDs/edit?usp=sharing)**
 
 ### 📥 Módulo de Agendamiento (Estructura de Reservas):
 * `servicios`: Catálogo con la oferta disponible.
@@ -53,7 +56,5 @@ Con la arquitectura de datos completamente integrada y capturando información l
 ---
 
 ## 👥 5. Roles y Trabajo en Equipo
-El desarrollo exitoso de este ecosistema integral se logró gracias a la coordinación equitativa en dupla:
-* Ambos integrantes colaboraron activamente en el diseño lógico de las bases de datos en Sheets, la programación de flujos de trabajo en Apps Script y el diseño de la interfaz en Google Sites para garantizar un sistema unificado y funcional.
 El desarrollo exitoso de este ecosistema integral se logró gracias a la coordinación equitativa en dupla:
 * Ambos integrantes colaboraron activamente en el diseño lógico de las bases de datos en Sheets, la programación de flujos de trabajo en Apps Script y el diseño de la interfaz en Google Sites para garantizar un sistema unificado y funcional.
